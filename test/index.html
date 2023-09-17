@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         const destino = ['Rio de Janeiro', 'San Pablo', 'Nueva York', 'Miami','Roma',
+         'Buenos Aires', 'Madrid', 'Barcelona', 'México DF', 'Bogota','Lima', 'Quito'];
+       
+        let result = destino.filter((valor) => {
+        const valorMinuscula = valor.toLowerCase()
+        const ciudadMinuscula = valor.toLowerCase()
+        return valorMinuscula.includes(ciudadMinuscula)
+    })
+    const pets = ['cat', 'dog', 'bat'];
+
+     console.log(pets.includes('cat'));
+
+        console.log(result);
+    </script>
+</body>
+</html>
